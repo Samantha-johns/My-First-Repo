@@ -1,0 +1,91 @@
+
+        body{
+            background-color: lightblue;
+            font-family: Arial, "Noto Sans Gothic";
+            margin: 0;
+            padding: 0;
+            color: mediumvioletred;
+        }
+        nav{
+            background-color: ghostwhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li{
+            margin: 0 20px;
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: mediumvioletred;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        nav ul li a:hover{
+            background-color: dodgerblue;
+            color: aquamarine;
+        }
+        .hero-image{
+            background-image: url("https://cdn.pixabay.com/photo/2021/11/01/14/47/halloween-6760662_640.jpg");
+            background-position: center;
+            height: 570px;
+            border-radius: 15px;
+            margin: 20px;
+            background-size: cover;
+        }
+        .about-us{
+          background-color: white;
+          height: 60px;
+        }
+        .about{
+          background-color: beige;
+          height: 60px;
+        }
+        .section{
+          background-color: lightpink;
+          height: 60px;
+        }
+        #one{
+          background-color: silver;
+          height: 60px;
+        }
+        #two{
+          background: lavender;
+          height: 60px;
+        }
+        .image-one img{
+            height: 50vh;
+            width: 600px;
+
+        }
+        .image-two img{
+            height: 50vh;
+            width: 600px;
+
+        }
+        .image-three img{
+          height: 50vh;
+            width: 600px;
+
+        }
+        .image-four img{
+            height: 50vh;
+            width: 600px;
+
+        }
+
+
+
